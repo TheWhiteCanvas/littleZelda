@@ -1,0 +1,31 @@
+#Done Change the EliteGuardian sprite to the Green Soldier with a sword. 
+
+Try to make it greyish in Render(g) when spd = 0, but green when spd = 2.
+
+Adjust the Enemy movement to when they see the player
+
+Create the Boss class extends Enemy but with more HP
+Enemy = 1
+EliteGuardians = 3 
+Boss = 10
+
+Boss may fire ammunition
+
+Boss grey when spd = 0, original color when = 2 
+
+Adjust the Enemy collision to hit player (-1 hp, player has 3)
+Adjust Enemy collision to stop when hit another Enemy
+
+Create Public Class Exit, sprite of a door, a locked door while enemies are alive, an open one when they are dead
+Place two doors one closer to player, the other very far on the room
+
+Adjust graphic interface: Create a Class GUI and spawn three hearts in the bottom of the screen, as the player
+loses life, the hearts are erased until he dies and the game quits
+
+Adjust the game menu
+Adjust music
+Adjust Game Over Screen
+Adjust Finale
+
+After that the game is finished and it is a very nice prototype well advanced beyond the teachings of Danki Code's
+Mini Zelda
